@@ -15,7 +15,7 @@ function getDatas() {
 
 function postDatas(datas) {
 
-// console.log(datas); // this works, too
+console.log(datas); // this works, too
 }
 
 
