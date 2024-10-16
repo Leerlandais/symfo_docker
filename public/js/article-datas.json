@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "cat": "Bedroom",
+        "item": "Mattress",
+        "price": "350",
+        "priceRed": "299",
+        "img": "images/products/product3.jpg",
+        "href": "product3.html"
+    },
+    {
+        "id": 1,
+        "cat": "Bedroom",
+        "item": "Bed - King Sier",
+        "price": "950",
+        "priceRed": "699",
+        "img": "images/products/product4.jpg",
+        "href": "product4.html"
+    },
+    {
+        "id": 1,
+        "cat": "Living Room",
+        "item": "Guyer Chair",
+        "price": "800",
+        "priceRed": "699",
+        "img": "images/products/product1.jpg",
+        "href": "product1.html"
+    },
+    {
+        "id": 1,
+        "cat": "Living Room",
+        "item": "Couple Sofa",
+        "price": "1100",
+        "priceRed": "600",
+        "img": "images/products/product3.jpg",
+        "href": "product3.html"
+    }
+]
