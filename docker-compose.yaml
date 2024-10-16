@@ -25,12 +25,12 @@ services:
   mysql:
     image: mysql:8.0
     environment:
-      MYSQL_ROOT_PASSWORD: $(MYSQL_ROOT)
-      MYSQL_DATABASE: $(MYSQL_DB)
-      MYSQL_USER: $(MYSQL_USER)
-      MYSQL_PASSWORD: $(MYSQL_PASS)
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT}
+      MYSQL_DATABASE: ${MYSQL_DB}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASS}
     ports:
-      - "3306:3306"
+      - "3308:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     networks:
@@ -39,9 +39,9 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     environment:
-      PMA_HOST: $(PMA_HOST)
-      MYSQL_USER: $(PMA_USER)
-      MYSQL_PASSWORD: $(PMA_PASS)
+      PMA_HOST: ${PMA_HOST}
+      MYSQL_USER: ${PMA_USER}
+      MYSQL_PASSWORD: ${PMA_PASS}
     ports:
       - "8081:80"
     networks:
