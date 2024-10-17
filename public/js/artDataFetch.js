@@ -43,7 +43,15 @@ function postArticles(datas) {
             addBasketTrackingToLocalStorage = document.getElementById("addBasketTrackingToLocalStorage");
 
     datas.forEach((data) => {
-
+        const divExt = document.createElement("div");
+        divExt.classList.add("bg-white", "shadow", "rounded", "overflow-hidden", "group",)
+        const divImg = document.createElement("div");
+        divImg.classList.add("relative");
+        const img = document.createElement("img");
+        img.setAttribute("src", data["img"]);
+        img.setAttribute("alt", data["item"]);
+        divImg.appendChild("img");
+        divExt.appendChild(divImg);
 
     });
    /*
