@@ -15,14 +15,10 @@ function getArticleDatas(whichGrid) {
 function postArticles(datas, whichGrid) {
     const shuffledData = datas.sort((a, b) => 0.5 - Math.random());
     const cutData = shuffledData.slice(0,4);
-console.log(cutData);
 
     cutData.forEach((data) => {
         const soldAmt = JSON.parse(localStorage.getItem('ITEM'+data["id"])).sold;
-        console.log(soldAmt);
-        console.log(data["amount"]);
         const newAmt = parseInt(data["amount"]) - parseInt(soldAmt);
-        console.log(newAmt);
         const divExt = document.createElement("div");
             divExt.classList.add("bg-white", "shadow", "rounded", "overflow-hidden", "group",)
         const divImg = document.createElement("div");
@@ -72,7 +68,3 @@ console.log(cutData);
 
 getArticleDatas(articleGrid);
 getArticleDatas(recommendedGrid);
-
-function addToBasket(added) {
-    console.log(added);
-}
