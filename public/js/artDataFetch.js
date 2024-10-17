@@ -1,4 +1,6 @@
 const articleGrid = document.getElementById("article_grid");
+const recommendedGrid = document.getElementById("recommended_grid");
+let firstGrid = true;
 function getArticleDatas() {
     fetch("js/article-datas.json")
         .then(function(response) {
@@ -51,10 +53,17 @@ console.log(cutData);
         divLink.appendChild(divBtn);
 
         divExt.appendChild(divLink);
-        articleGrid.appendChild(divExt);
+        if (firstGrid){
+            articleGrid.appendChild(divExt);
+            firstGrid = false;
+        }else {
+            recommendedGrid.appendChild(divExt);
+            firstGrid = true;
+        }
     });
 
 }
 
+getArticleDatas();
 getArticleDatas();
 

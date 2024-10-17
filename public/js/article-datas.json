@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "cat": "Bedroom",
+        "cat": "Living Room",
         "item": "Mattress",
         "price": "350",
         "priceRed": "299",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "cat": "Bedroom",
+        "cat": "Living Room",
         "item": "Bed - King Size",
         "price": "950",
         "priceRed": "699",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "cat": "Bedroom",
+        "cat": "Living Room",
         "item": "Mattress",
         "price": "350",
         "priceRed": "299",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "cat": "Kitchen",
+        "cat": "Living Room",
         "item": "Dining Table",
         "price": "300",
         "priceRed": "249",
