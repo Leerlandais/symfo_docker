@@ -53,12 +53,14 @@ console.log(cutData);
             divLeft.innerHTML = `<div class="text-xs text-gray-500 ml-3">Remaining : <span id="useLocalStorageToTrackThis">${newAmt}</span></div>`;
             divLink.appendChild(divLeft);
             const divBtn = document.createElement("div");
-            divBtn.innerHTML = `<a href="" 
+            divBtn.innerHTML = `<button 
                                    class="block w-full py-1 text-center text-white 
                                           bg-primary border border-primary rounded-b 
-                                          hover:bg-transparent hover:text-primary transition">
+                                          hover:bg-transparent hover:text-primary transition"
+                                   id="ITEM${data['id']}"
+                                   onclick="addToBasket('ITEM${data["id"]}')">
                                    Add to cart
-                                   </a>`
+                                   </button>`
             divLink.appendChild(divBtn);
 
         divExt.appendChild(divLink);
@@ -71,3 +73,6 @@ console.log(cutData);
 getArticleDatas(articleGrid);
 getArticleDatas(recommendedGrid);
 
+function addToBasket(added) {
+    console.log(added);
+}
