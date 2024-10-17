@@ -46,7 +46,7 @@ function postArticles(datas, whichGrid) {
             divLink.appendChild(divPrice);
         const divLeft = document.createElement("div");
             divLeft.classList.add("flex", "items-center");
-            divLeft.innerHTML = `<div class="text-xs text-gray-500 ml-3">Remaining : <span id="useLocalStorageToTrackThis">${newAmt}</span></div>`;
+            divLeft.innerHTML = `<div class="text-xs text-gray-500 ml-3">Remaining : <span id="amt${data['id']}">${newAmt}</span></div>`;
             divLink.appendChild(divLeft);
             const divBtn = document.createElement("div");
             divBtn.innerHTML = `<button 
