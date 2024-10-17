@@ -35,6 +35,16 @@
         "item": "Couple Sofa",
         "price": "1100",
         "priceRed": "600",
+        "img": "images/products/product2.jpg",
+        "href": "product2.html",
+        "amount": 50
+    },
+    {
+        "id": 5,
+        "cat": "Kitchen",
+        "item": "Dining Table",
+        "price": "300",
+        "priceRed": "249",
         "img": "images/products/product3.jpg",
         "href": "product3.html",
         "amount": 50
