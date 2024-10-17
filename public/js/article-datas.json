@@ -5,8 +5,8 @@
         "item": "Mattress",
         "price": "350",
         "priceRed": "299",
-        "img": "images/products/product3.jpg",
-        "href": "product3.html",
+        "img": "images/products/product1.jpg",
+        "href": "product1.html",
         "amount": 50
     },
     {
@@ -15,8 +15,8 @@
         "item": "Bed - King Size",
         "price": "950",
         "priceRed": "699",
-        "img": "images/products/product4.jpg",
-        "href": "product4.html",
+        "img": "images/products/product2.jpg",
+        "href": "product2.html",
         "amount": 50
     },
     {
@@ -25,8 +25,8 @@
         "item": "Double Chair",
         "price": "800",
         "priceRed": "699",
-        "img": "images/products/product1.jpg",
-        "href": "product1.html",
+        "img": "images/products/product3.jpg",
+        "href": "product3.html",
         "amount": 50
     },
     {
@@ -35,8 +35,8 @@
         "item": "Couple Sofa",
         "price": "1100",
         "priceRed": "600",
-        "img": "images/products/product2.jpg",
-        "href": "product2.html",
+        "img": "images/products/product4.jpg",
+        "href": "product4.html",
         "amount": 50
     },
     {
@@ -45,8 +45,78 @@
         "item": "Dining Table",
         "price": "300",
         "priceRed": "249",
-        "img": "images/products/product3.jpg",
-        "href": "product3.html",
+        "img": "images/products/product5.jpg",
+        "href": "product5.html",
+        "amount": 50
+    },
+    {
+        "id": 6,
+        "cat": "Bedroom",
+        "item": "Mattress",
+        "price": "350",
+        "priceRed": "299",
+        "img": "images/products/product6.jpg",
+        "href": "product6.html",
+        "amount": 50
+    },
+    {
+        "id": 7,
+        "cat": "Bedroom",
+        "item": "Bed - King Size",
+        "price": "950",
+        "priceRed": "699",
+        "img": "images/products/product7.jpg",
+        "href": "product7.html",
+        "amount": 50
+    },
+    {
+        "id": 8,
+        "cat": "Living Room",
+        "item": "Double Chair",
+        "price": "800",
+        "priceRed": "699",
+        "img": "images/products/product8.jpg",
+        "href": "product8.html",
+        "amount": 50
+    },
+    {
+        "id": 9,
+        "cat": "Living Room",
+        "item": "Couple Sofa",
+        "price": "1100",
+        "priceRed": "600",
+        "img": "images/products/product9.jpg",
+        "href": "product9.html",
+        "amount": 50
+    },
+    {
+        "id": 10,
+        "cat": "Kitchen",
+        "item": "Dining Table",
+        "price": "300",
+        "priceRed": "249",
+        "img": "images/products/product10.jpg",
+        "href": "product10.html",
+        "amount": 50
+    },
+    {
+        "id": 11,
+        "cat": "Living Room",
+        "item": "Couple Sofa",
+        "price": "1100",
+        "priceRed": "600",
+        "img": "images/products/product11.jpg",
+        "href": "product11.html",
+        "amount": 50
+    },
+    {
+        "id": 12,
+        "cat": "Kitchen",
+        "item": "Dining Table",
+        "price": "300",
+        "priceRed": "249",
+        "img": "images/products/product12.jpg",
+        "href": "product12.html",
         "amount": 50
     }
 ]
