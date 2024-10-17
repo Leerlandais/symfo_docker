@@ -1,19 +1,19 @@
 const articleGrid = document.getElementById("article_grid");
 const recommendedGrid = document.getElementById("recommended_grid");
 let firstGrid = true;
-function getArticleDatas() {
+function getArticleDatas(whichGrid) {
     fetch("js/article-datas.json")
         .then(function(response) {
             return response.json();
         })
         .then(function(datas) {
-            postArticles(datas);
+            postArticles(datas, whichGrid);
         })
         .catch(error => console.error('Error fetching datas:', error));
 }
 
 
-function postArticles(datas) {
+function postArticles(datas, whichGrid) {
     const shuffledData = datas.sort((a, b) => 0.5 - Math.random());
     const cutData = shuffledData.slice(0,4);
 console.log(cutData);
@@ -53,17 +53,12 @@ console.log(cutData);
         divLink.appendChild(divBtn);
 
         divExt.appendChild(divLink);
-        if (firstGrid){
-            articleGrid.appendChild(divExt);
-            firstGrid = false;
-        }else {
-            recommendedGrid.appendChild(divExt);
-            firstGrid = true;
-        }
+            whichGrid.appendChild(divExt);
+
     });
 
 }
 
-getArticleDatas();
-getArticleDatas();
+getArticleDatas(articleGrid);
+getArticleDatas(recommendedGrid);
 
